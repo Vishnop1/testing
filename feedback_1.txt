@@ -1,0 +1,84 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Dell-PC\Desktop> cd Terraform
+PS C:\Users\Dell-PC\Desktop\Terraform> git init
+Reinitialized existing Git repository in C:/Users/Dell-PC/Desktop/Terraform/.git/
+PS C:\Users\Dell-PC\Desktop\Terraform> git add README.md
+PS C:\Users\Dell-PC\Desktop\Terraform> git add main.tf
+PS C:\Users\Dell-PC\Desktop\Terraform> git remote add origin https://github.com/Vishnop1/Git.git
+error: remote origin already exists.
+PS C:\Users\Dell-PC\Desktop\Terraform> git status
+On branch master
+
+No commits yet
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+error: failed to push some refs to 'https://github.com/Vishnop1/Git.git'
+PS C:\Users\Dell-PC\Desktop\Terraform> git branch -M main
+PS C:\Users\Dell-PC\Desktop\Terraform> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Vishnop1/Git.git'
+PS C:\Users\Dell-PC\Desktop\Terraform>
+PS C:\Users\Dell-PC\Desktop\Terraform> echo "# Git" >> README.md
+PS C:\Users\Dell-PC\Desktop\Terraform> git init
+Reinitialized existing Git repository in C:/Users/Dell-PC/Desktop/Terraform/.git/
+PS C:\Users\Dell-PC\Desktop\Terraform> git add main.tf
+PS C:\Users\Dell-PC\Desktop\Terraform> git remote add origin https://github.com/Vishnop1/Git.git
+error: remote origin already exists.
+PS C:\Users\Dell-PC\Desktop\Terraform> git push -u origin main  
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Vishnop1/Git.git'
+PS C:\Users\Dell-PC\Desktop\Terraform> git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   main.tf
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .terraform.lock.hcl
+        .terraform/
+        git_test/
+        terraform.tfstate
+        terraform.tfstate.backup
+
+PS C:\Users\Dell-PC\Desktop\Terraform>  c:; cd 'c:\Users\Dell-PC\Downloads'; & 'C:\Users\Dell-PC\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dell-PC\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '60028' '--' 'c:\Users\Dell-PC\Downloads\Practice3.py' 
+C:\Users\Dell-PC\AppData\Local\Programs\Python\Python310\python.exe: can't open file 'c:\\Users\\Dell-PC\\.vscode\\extensions\\ms-python.python-2022.4.1\\pythonFiles\\lib\\python\\debugpy\\launcher': [Errno 2] No such file or directory
+PS C:\Users\Dell-PC\Downloads>  c:; cd 'c:\Users\Dell-PC\Downloads'; & 'C:\Users\Dell-PC\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\Dell-PC\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '60028' '--' 'c:\Users\Dell-PC\Downloads\Practice3.py'
+PS C:\Users\Dell-PC\Downloads> cd..PS C:\Users\Dell-PC> cd desktop
+PS C:\Users\Dell-PC\desktop> cd Terraform
+PS C:\Users\Dell-PC\desktop\Terraform> git commit -m "Initial Commit"
+[main (root-commit) 98f1a54] Initial Commit
+ 2 files changed, 37 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 main.tf
+PS C:\Users\Dell-PC\desktop\Terraform> git remote add origin https://github.com/Vishnop1/Git.git
+error: remote origin already exists.
+PS C:\Users\Dell-PC\desktop\Terraform> git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Vishnop1/Git.git'
+PS C:\Users\Dell-PC\desktop\Terraform> git push -u origin maininfo: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.Writing objects: 100% (4/4), 567 bytes | 567.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0To https://github.com/Vishnop1/Git.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Dell-PC\desktop\Terraform>
